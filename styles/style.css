@@ -232,11 +232,12 @@ header {
     gap: 24px;
     justify-content: center;
     width: 100%;
+    margin: auto;
     overflow: hidden;
 }
 
 .card img {
-    width: 342px;
+    max-width: 342px;
     height: 400px;
 }
 
@@ -244,7 +245,7 @@ header {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
-    width: 342px;
+    max-width: 342px;
 }
 
 .watch-now-text {
@@ -263,16 +264,22 @@ header {
     border: 6px solid #ff42a5;
     border-radius: 16px;
 }
+/* .card{
+    width: 100%;
+} */
 
 .card-img-div {
+    width: 90%;
     position: relative;
-
     border: 5px solid transparent;
     border-radius: 10px;
 }
 
 .watch-now-div-container:hover {
     opacity: 90%;
+}
+.career-btn{
+    padding-bottom: 20px;
 }
 
 .watcht-now-text {
@@ -290,7 +297,7 @@ header {
     right: 0px;
     left: 0px;
     bottom: 0px;
-    opacity: 50%;
+    /* opacity: 50%; */
     border: 5px solid transparent;
     border-radius: 10px;
     opacity: 0;
@@ -447,6 +454,7 @@ footer {
     margin-top: 100px;
 }
 .careers-section-left h2{
+    padding-top: 20px;
     font-size: 48px;
     font-weight: 700;
 }
@@ -477,7 +485,6 @@ footer {
     justify-content: center;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     color: white;
-
 }
 .careers-section-left{
     padding-left: 240px;
